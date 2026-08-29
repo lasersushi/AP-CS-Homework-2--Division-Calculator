@@ -18,9 +18,7 @@ public class Homework2 {
         return answer;
     }
     public static double computeDecimal(int dividend, int divisor) {
-        double DoubleDividend = (double)(dividend);
-        double DoubleDivisor = (double)(divisor);
-        double answer = DoubleDividend/DoubleDivisor;
+        double answer = (double) dividend/divisor;
         return answer;
     }
 }
