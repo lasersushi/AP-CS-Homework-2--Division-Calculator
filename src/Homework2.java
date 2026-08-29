@@ -8,8 +8,8 @@ AT CS
 public class Homework2 {
     public static void main(String[]args) {
         int a = 5;
-        int b = 2;
-        computeDecimal(a, b);
+        int b = 4;
+        System.out.println(computeDecimal(a,b));
     }
     public static int computeQuotient(int dividend, int divisor) {
         int answer = dividend/divisor;
@@ -20,7 +20,9 @@ public class Homework2 {
         return answer;
     }
     public static double computeDecimal(int dividend, int divisor) {
-        double answer = dividend/divisor;
+        double div = (double)(dividend);
+        double div2 = (double)(divisor);
+        double answer = div/divisor;
         return answer;
     }
 }
