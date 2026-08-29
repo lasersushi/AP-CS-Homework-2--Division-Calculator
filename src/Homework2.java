@@ -29,7 +29,7 @@ public class Homework2 {
         int c = dividend/divisor;
         int d = dividend%divisor;
         double e = (double) dividend/divisor;
-        String answer = a + "divided by" + b + "is equal to" + c + "remainder" + d + "or" + e;
+        String answer = a + " divided by " + b + " is equal to " + c + " remainder " + d + " or " + e;
         return answer;
     }
 }
