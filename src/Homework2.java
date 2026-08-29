@@ -7,7 +7,10 @@ AT CS
 
 public class Homework2 {
     public static void main(String[]args) {
-
+        String firstArgument = args[0];
+        String secondArgument = args[1];
+        int firstArgInt = Integer.parseInt(firstArgument);
+        int secondArgInt = Integer.parseInt(secondArgument);
     }
     public static int computeQuotient(int dividend, int divisor) {
         int answer = dividend/divisor;
