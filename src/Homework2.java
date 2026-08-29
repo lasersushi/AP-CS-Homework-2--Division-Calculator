@@ -17,7 +17,8 @@ public class Homework2 {
         System.out.println(computeDivision(firstArgInt, secondArgInt));
     }
     public static int computeQuotient(int dividend, int divisor) {
-        int answer = dividend/divisor;
+        double casted = Math.floor(computeDecimal(dividend, divisor));
+        int answer = (int)(casted);
         return answer;
     }
     public static int computeRemainder(int dividend, int divisor) {
