@@ -31,9 +31,9 @@ public class Homework2 {
     public static String computeDivision(int dividend, int divisor) {
         int a = dividend;
         int b = divisor;
-        int c = dividend/divisor;
-        int d = dividend%divisor;
-        double e = (double) dividend/divisor;
+        int c = computeQuotient(dividend, divisor);
+        int d = computeRemainder(dividend, divisor);
+        double e = computeDecimal(dividend, divisor);
         String answer = a + " divided by " + b + " is equal to " + c + " remainder " + d + " or " + e;
         return answer;
     }
